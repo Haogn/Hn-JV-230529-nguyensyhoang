@@ -1,0 +1,75 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* .header {
+  background-color: brown;
+  color: aliceblue;
+  height: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+} */
+
+.header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  background-color: #ffffff;
+  box-shadow: 0px 1px 5px rgba(0, 0, 0, 0.1);
+  z-index: 10;
+  padding: 10px;
+  text-align: center;
+  background-color: brown;
+  color: aliceblue;
+}
+
+/* Style.css */
+/* ... Your existing styles ... */
+
+.cart {
+  position: fixed;
+  top: 80px;
+  right: 20px;
+  background-color: #f0f0f0;
+  color: brown;
+  border: none;
+  border-radius: 50%;
+  padding: 10px;
+  font-size: 20px;
+  cursor: pointer;
+  box-shadow: 0px 1px 5px rgba(0, 0, 0, 0.1);
+  width: 70px;
+  height: 70px;
+}
+
+.list-product {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 30px;
+  background-color: rgba(128, 128, 128, 0.2);
+  justify-content: center;
+  align-items: center;
+  margin-top: 3rem;
+  margin-bottom: 3rem;
+}
+.item-product {
+  width: 300px;
+}
+.img-productt {
+  width: 300px;
+  height: 300px;
+  object-fit: cover;
+  border-radius: 10px;
+  cursor: pointer;
+}
+.btn {
+  width: 100px;
+}
+.box {
+  margin-left: 1rem;
+  margin-right: 1rem;
+}
